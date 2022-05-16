@@ -4,10 +4,15 @@
     --color-secundary: crimson;
     --color-third: ;
     --color-gray-light: #eee;
+    --color-gray-darker: #c5c5c5;
 
     --gap: 3rem;
 
 }
 html{
     scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
 }
