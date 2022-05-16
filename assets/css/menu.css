@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     width: 100%;
     border-bottom: 0.1rem solid var(--color-gray-light);
 }
@@ -21,8 +22,8 @@
     color: var(--color-primary);
 }
 
-.menu h1 a{
-    color: inherit;
+.menu h1, a{
+    color: var(--color-primary);
 }
 
 .menu ul{
